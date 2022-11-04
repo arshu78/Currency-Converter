@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="cur_image.png" class="cur_image">
+    <h1>Currency Converter</h1>
+    <p>Select type of Currency for conversion</p>
+    <div class="container">
+            <div class="currency">
+                    <select  id="cur_one">
+                        <option value="USD" id="USD" selected>United States Dollars</option>
+                        <option value="EUR" id="EUR" >EURO</option>
+                        <option value="GBP" id="uk">United Kingdom Pounds</option>
+                        <option value="AUD" id="aus">Australia Dollars</option>
+                        <option value="ATS" id="ast">Austria Dollars</option>
+                        <option value="CAD" id="can">Canada Dollars</option>
+                        <option value="HKD" id="hk">Hong kong Dollars</option>
+                        <option value="HUF" id="hg">Hungary Forint</option>
+                        <option value="ISK" id="ice">Iceland Krona</option>
+                        <option value="INR" id="ind">Indian Rupees</option>
+                        <option value="IDR" id="indo">Indonesia Rupaih</option>
+                        <option value="IEP" id="ire">Ireland Punt</option>
+                        <option value="ILS" id="isr">Isreal New Shekels</option>
+                        <option value="KRW" id="kor">Korea (South) Won</option>
+                        <option value="NZD" id="nz">New Zealand Dollars</option>
+
+                    </select>
+                    <input type="number" id="amt_1" placeholder="0" value="1">
+
+            </div>
+            <div class="swap_rate">
+                <button class="btn" id="swap">Swap</button>
+
+                <div class="rate" id="rate">
+
+                </div>
+            </div>
+            <div class="currency">
+                <select  id="cur_two">
+                    <option value="USD" >United States Dollars</option>
+                    <option value="EUR" >EURO</option>
+                    <option value="GBP" >United Kingdom Pounds</option>
+                    <option value="AUD" >Australia Dollars</option>
+                    <option value="ATS" >Austria Dollars</option>
+                    <option value="CAD" >Canada Dollars</option>
+                    <option value="HKD" >Hong kong Dollars</option>
+                    <option value="HUF" >Hungary Forint</option>
+                    <option value="ISK" >Iceland Krona</option>
+                    <option value="INR" selected>Indian Rupees</option>
+                    <option value="IDR" >Indonesia Rupaih</option>
+                    <option value="IEP" >Ireland Punt</option>
+                    <option value="ILS" >Isreal New Shekels</option>
+                    <option value="KRW" >Korea (South) Won</option>
+                    <option value="NZD" >New Zealand Dollars</option>
+
+                </select>
+                <input type="number" id="amt_2"_ placeholder="0" value="0">
+
+        </div>
+
+    </div>
+   
+    <script src="script.js"></script>
+        </body>
+        </html>
